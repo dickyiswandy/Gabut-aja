@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Book Animation with Snow</title>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Salju -->
+    <div class="snowflakes" aria-hidden="true">
+        <div class="snowflake">❄</div>
+        <div class="snowflake">❅</div>
+        <div class="snowflake">❆</div>
+        <div class="snowflake">❄</div>
+        <div class="snowflake">❅</div>
+        <div class="snowflake">❆</div>
+    </div>
+
+    <div class="container">
+        <div class="book-container">
+            <img src="img/icon1-removebg-preview.png" alt="Doll Top Right" class="doll-top-right">
+            <img src="img/icon2-removebg-preview.png" alt="Doll Bottom Left" class="doll-bottom-left">
+            <div class="book">
+                <div class="page left-page" id="left-page">
+                    <div id="lyrics-container"></div>
+                </div>
+                <div class="page right-page" id="page-1">
+                    <img src="img/img.1.jpg" alt="Foto 1">
+                </div>
+                <div class="page right-page" id="page-2">
+                    <img src="img/img.2.jpg" alt="Foto 2">
+                </div>
+                <div class="page right-page" id="page-3">
+                    <img src="img/img.3.jpg" alt="Foto 3">
+                </div>
+                <div class="page right-page" id="page-4">
+                    <img src="img/img.4.jpg" alt="Foto 4">
+                </div>
+                <div class="page right-page" id="page-5">
+                    <img src="img/img.5.jpg" alt="Foto 5">
+                </div>
+                <div class="page right-page" id="page-6">
+                    <img src="img/img.6.jpg" alt="Foto 6">
+                </div>
+                <div class="page right-page" id="page-7">
+                    <img src="img/img.7.jpg" alt="Foto 7">
+                </div>
+            </div>
+        </div>
+        <div class="music-player">
+            <i data-feather="play-circle" id="play-icon"></i>
+            <div id="song-duration"></div>
+            <audio id="audio" src="assets/audio/jadi kekasihku saja.mp3" autoplay loop></audio>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
